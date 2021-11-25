@@ -1,0 +1,89 @@
+*{margin:0;padding:0;box-sizing:border-box}
+.logo img{height:50px;width:200px}
+.banner{background-image:url(../img/banner.jpg);background-position:left;background-size:cover;background-repeat:no-repeat;position:relative}
+.banner h2{line-height:47px}
+.banner p{font-weight:600;line-height:10px;font-size:25px;color:#dc3545}
+.inner-content{padding:17rem 1.5rem 5rem 1rem}
+.inner-content h2{text-transform:uppercase;font-weight:900;font-size:40px}
+.banner img{position:absolute;right:80px;width:230px;height:50px;margin-top:1rem}
+.form-part{border:5px solid #000;max-height:100%;margin-top:6rem;padding:1.7rem;position:absolute;right:4rem}
+.form-part:after{content:"";width:100px;height:5px;left:-5px;background:#f8f8f8;position:absolute;bottom:-5px}
+.form-part:before{content:"";width:5px;height:100px;left:-5px;background:#f8f8f8;position:absolute;bottom:-5px}
+.form-part small{font-size:10px}
+.form-control{display:block;width:100%;padding:0 .75rem;height:calc(1em + .75rem + -5px);font-size:1rem;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;border-radius:0;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+select.form-control:not([size]):not([multiple]){height:26px;font-size:12px}
+::placeholder{font-size:12px}
+option{font-size:12px}
+.btn-dark{color:#fff;background-color:#343a40;border-color:#343a40;border-radius:0}
+.section-2{background-image:url(../img/student.jpg);background-repeat:no-repeat;background-position:left bottom}
+.inner-student{padding-bottom:16rem}
+.student-text{padding:12rem 3rem 4rem}
+.student-text h2{font-size:35px}
+.bg-student{padding-bottom:5rem}
+.bg-img{background-image:url(../img/bg.png);background-position:top;background-size:cover;background-repeat:no-repeat;text-transform:uppercase;color:#fff;background:#d82828bf}
+.section-2 p{padding:13rem 3rem 2rem;font-size:20px}
+.specialization{background-image:url(../img/bulding.png);background-position:top;background-size:cover;background-repeat:no-repeat}
+.specialization h2{margin:4rem;color:#fff}
+.specialization .nav-link{display:block;padding:.5rem 4.1rem;font-size:19px;color:#fff;font-weight:600;border-bottom:5px solid transparent}
+.specialization .tab-content .col-md-9{background:#fff}
+.specialization .nav-tabs .nav-link:focus,.specialization .nav-tabs .nav-link:hover{border-color:transparent}
+.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{color:#495057;background-color:#fff;border-bottom:5px solid #d01212!important;border-top:none;border-left:none;border-right:none}
+.nav-tabs{border-bottom:1px solid #dee2e612}
+.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{color:#f7fbff;background-color:#fff0}
+.bg-img-3 li{margin-top:10px}
+.circle-red{font-size:9px;margin-top:-2px}
+.d-flex h6{font-size:18px;font-weight:900;color:red;padding-left:5rem}
+.d-flex p{padding:0 4rem}
+.new-age-learning{position:relative}
+.new-age-learning h2 + p{font-size:22px}
+.new-age-learning img{position:absolute;height:400px;width:171px;z-index:1;left:205px;top:127px}
+.new-age-learning-content{background-color:#e2e2e2}
+.edge .row .col-md:first-child{background:#e31138;color:#fff;padding:6rem 3rem 3rem 4rem;box-shadow:-13px 18px 46px -17px rgba(0,0,0,0.52);-webkit-box-shadow:-13px 18px 46px -17px rgba(0,0,0,0.52);-moz-box-shadow:-13px 18px 46px -17px rgba(0,0,0,0.52)}
+.edge .row .col-md:last-child{background:#8c8a8a;background:-moz-linear-gradient(90deg,rgba(140,138,138,1) 0%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 100%);background:-webkit-linear-gradient(90deg,rgba(140,138,138,1) 0%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 100%);background:linear-gradient(90deg,rgba(140,138,138,1) 0%,rgba(234,234,234,1) 20%,rgba(234,234,234,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#8c8a8a",endColorstr="#eaeaea",GradientType=1);color:#000;margin:20px 0;padding:6rem 3rem 3rem 4rem}
+.edge .row h4{font-size: 27px;margin-bottom:25px;}
+.edge .row ul li{list-style-position:inside;text-indent:-26px;margin-left:24px;margin-bottom:15px;font-size:20px}
+@media (max-width: 1350px) {
+.new-age-learning img{position:absolute;height:400px;width:171px;z-index:1;left:150px;top:181px}
+}
+@media (max-width: 1200px) {
+.form-part{border:5px solid #000;max-height:100%;margin-top:6rem;padding:1rem;position:absolute;right:3rem}
+.specialization .nav-link{display:block;padding:.5rem 1.97rem;font-size:21px;color:#fff}
+.new-age-learning img{position:absolute;height:400px;width:171px;z-index:1;left:182px;top:127px}
+.d-flex h6{font-size:15px;font-weight:900;color:red;padding-left:8rem}
+.d-flex p{padding:0 2rem;font-size:15px}
+}
+@media(max-width: 1128px) {
+.new-age-learning img{position:absolute;height:400px;width:171px;z-index:1;left:130px;top:127px}
+}
+@media (max-width: 992.98px) {
+.form-part{border:5px solid #000;max-height:100%;margin-top:6rem;padding:.8rem;position:absolute;right:3rem;background-color:#ffffff91}
+.specialization .nav-link{display:block;padding:.5rem 1.7rem;font-size:15px;color:#fff}
+.specialization h3{font-size:18px}
+.form-part h6{font-size:13px}
+.inner-content{padding:7rem 1.5rem 5rem 1rem}
+.banner h2{font-size:28px;line-height:33px;margin-bottom:30px}
+.banner p{font-size:15px}
+.bg-img{background-image:url(../img/bg.png);background-position:top;background-size:cover;background-repeat:no-repeat;text-transform:uppercase;color:#fff;background:#d82828bf;max-width:100%}
+.student-text{padding:6rem 1rem 3rem 2rem}
+.student-text h2{font-size:1.6rem}
+.section-2 p{padding-top:2rem;padding-right:1rem;padding-left:1rem;font-size:18px}
+.d-flex p{padding:0 1rem;font-size:13px}
+.new-age-learning img{position:absolute;height:400px;width:171px;z-index:1;left:130px;top:147px}
+}
+@media (max-width: 767.98px) {
+.edge .row .col-md:last-child{margin-top:0}
+.d-flex p{padding:0 1rem;font-size:14px}
+.section-2{background-size:contain}
+.new-age-learning img{display:none}
+}
+@media(max-width: 576px) {
+.specialization .nav-link{display:block;padding:.5rem 1.499rem;font-size:13px;color:#fff}
+.specialization h3{font-size:18px}
+.form-part{display:none}
+.d-flex h6{font-size:14px;font-weight:900;color:red;padding-left:0}
+.d-flex p{font-size:12px}
+.specialization h2{margin:2rem 0;color:#fff;font-size:21px}
+.new-age-learning-content h2{font-size:18px}
+.new-age-learning h2 + p{font-size:17px}
+.d-flex p{padding:0;font-size:14px}
+}
